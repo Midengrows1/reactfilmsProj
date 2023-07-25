@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: #121829;
+  background-image: url(/img/Background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.headerContainer {
+  background-color: brown;
+}
+
+.cardWrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vw;
+  align-items: stretch;
+}

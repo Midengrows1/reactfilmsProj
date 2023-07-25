@@ -1,0 +1,20 @@
+
+.nav__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blueviolet; */
+}
+
+ul {
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__link:hover {
+  color: red;
+}

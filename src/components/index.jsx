@@ -1,0 +1,6 @@
+export { default as Header } from './Header'
+export { default as Body } from './Body'
+export { default as Nav } from './Nav'
+export { default as Container } from './Container'
+export { default as CardMovie } from './CardMovie'
+export { default as Input } from './InputMovie'

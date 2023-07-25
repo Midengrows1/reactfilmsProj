@@ -1,0 +1,45 @@
+.card {
+  max-width: 282px;
+  width: 15vw;
+  max-height: 480px;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 8px;
+  color: #fff;
+  border-radius: 12px;
+  background: rgba(32, 40, 62, 0.80);
+  backdrop-filter: blur(40px);
+}
+
+.card__inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__img {
+  width: 100%;
+  height: min(90%, 400px);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__description {
+  width: 100%;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__description h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
