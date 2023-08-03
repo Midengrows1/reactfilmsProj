@@ -28,17 +28,3 @@ html {
   padding: 3vw;
 }
 
-.app__body {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 2vw 0;
-  gap: 24px;
-  align-items: stretch;
-}
-
-.films__nav>ul {
-  justify-content: left;
-  gap: 20px;
-}
