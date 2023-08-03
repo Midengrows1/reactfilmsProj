@@ -1,10 +1,13 @@
-:root{
-    --primary-500:#5A4AF4;  
-    --secondary-500:#1EA5FC;
-    --success-500:#05CE91;
-    --error-500:#FF6161;
-    --tertary-500:#B66DFF;
-    --warning-500:#FFAD49;
-    --card--color:#20283E;
-    --card--grey--700:#323B54;
+:root {
+    --primary-500: #5A4AF4;
+    --primary-400:#7B6EF6;
+    --secondary-500: #1EA5FC;
+    --success-500: #05CE91;
+    --error-500: #FF6161;
+    --tertary-500: #B66DFF;
+    --warning-500: #FFAD49;
+    --card--color: #20283E;
+    --card--grey--700: #323B54;
+    --brd-radius: 12px;
+    
 }

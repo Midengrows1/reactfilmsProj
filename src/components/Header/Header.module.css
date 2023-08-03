@@ -1,12 +1,13 @@
 .header {
-  background-color: var(--card--grey--700);
   color: #fff;
-  padding: 0 1.5vw;
   backdrop-filter: blur(10px);
 }
 
 .headerLogo {
+  height: 100%;
   flex: 0 1 10%;
+  display: flex;
+  align-items: center;
 }
 
 .headerLogo img {
@@ -49,6 +50,7 @@
   background: transparent;
 
 }
+
 .searchIcon {
   color: rgba(255, 255, 255, .40);
   font-size: 16px;

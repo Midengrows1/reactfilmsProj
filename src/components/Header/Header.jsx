@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faSearch} from '@fortawesome/free-solid-svg-icons'
 import {Nav,Container,Input} from '@components';
 import styles from './Header.module.css'
+import '../../vars.css'
 const Header = ({onClick, onChange}) => {
     return (
         <div className={styles.header}>
