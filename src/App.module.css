@@ -26,5 +26,7 @@ html {
 
 .cardWrapper {
   padding: 3vw;
+  position: relative;
+  z-index: -1;
 }
 

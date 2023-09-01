@@ -1,8 +1,11 @@
 .header {
   color: #fff;
   backdrop-filter: blur(10px);
+  padding: 20px;
 }
-
+button {
+  cursor: pointer;
+}
 .headerLogo {
   height: 100%;
   flex: 0 1 10%;
@@ -31,15 +34,31 @@
   display: flex;
   align-items: center;
 }
-
+.search_container {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition-property: border-radius;
+  transition-duration: 2ms;
+  transition-timing-function: ease-out;
+}
+.active_search {
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 0px;
+}
 .search {
   height: 40px;
   display: inline-flex;
   position: relative;
   align-items: stretch;
 }
-
-.search>button {
+.inputHeader {
+  border: none;
+  outline: none;
+}
+.search > button {
   position: absolute;
   right: 6%;
   height: 100%;
@@ -48,10 +67,72 @@
   justify-content: center;
   border: transparent;
   background: transparent;
-
 }
 
 .searchIcon {
-  color: rgba(255, 255, 255, .40);
+  color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
+}
+.btn_header {
+  background: red;
+}
+.chevron_down_btn {
+  background: transparent;
+  border: none;
+  color: #ddd;
+  padding-right: 12px;
+  transition: all 0.3s linear;
+  transform: rotate(0deg);
+  align-self: center;
+  transform-origin: 30% 50%;
+}
+.active_down_btn {
+  transform: rotate(180deg);
+}
+.type_list_films {
+  display: flex;
+  justify-content: space-around;
+}
+.drop_container {
+  position: relative;
+}
+.drop_down {
+  background: transparent;
+  height: max-content;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 0px 0px 10px 10px;
+  padding: 0 10px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.input_year {
+  border-radius: 5px;
+}
+.type_list_films > * {
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+.active_type {
+  transition: all 0.3s linear;
+  text-shadow: 0px 4px 3px red;
+  border-radius: 20px;
+  width: max-content;
+  height: auto;
+  padding: 1px;
+  background-color: var(--primary-400);
+  color: #fff;
+}
+.drop_down > * {
+  width: 100%;
+  margin: 5px 0;
+}
+.type_list_films > * {
+  cursor: pointer;
+}
+.type_link_films {
 }
